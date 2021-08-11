@@ -1,0 +1,44 @@
+#containerNavBar ul{
+    list-style-type: none;
+    display: flex; 
+}
+
+#containerNavBar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: solid #b1b1b1;
+}
+
+#containerNavBar ul li{
+    padding: 10px 200px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#containerNavBar ul li a{
+    text-decoration: none; 
+    color:#b1b1b1;
+}
+
+#containerNavBar ul li a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+#containerSimple{
+    margin-top: 400px;
+    margin-left: 500px;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#containerSimple, img{
+    width: 900px;
+    margin-bottom: -50px;
+}
